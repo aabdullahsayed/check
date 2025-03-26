@@ -241,15 +241,24 @@
         }
 
         /* Responsive Design */
-       html, body {
-    min-width: 1200px; /* Match the viewport width */
-    overflow-x: auto;  /* Allow horizontal scrolling if needed */
-}
-body {
-    width: 100%;
-    zoom: 1; /* Prevent mobile browsers from resizing */
-}
-
+  /* Responsive Design */
+        @media (max-width: 768px) {
+    /* Base adjustments */
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    /* Header adjustments */
+    .header {
+        padding: 15px;
+        border-radius: 0 0 15px 15px;
+    }
+    
+    h1 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
 	    
 		
 		
