@@ -241,27 +241,16 @@
         }
 
         /* Responsive Design */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 32px;
-            }
+       html, body {
+    min-width: 1200px; /* Match the viewport width */
+    overflow-x: auto;  /* Allow horizontal scrolling if needed */
+}
+body {
+    width: 100%;
+    zoom: 1; /* Prevent mobile browsers from resizing */
+}
 
-            .nav {
-                flex-direction: column;
-            }
-
-            .section {
-                padding: 20px;
-            }
-
-            .form-group label {
-                font-size: 14px;
-            }
-
-            .form-group input, .form-group textarea {
-                font-size: 14px;
-            }
-        }
+	    
 		
 		
 		.contact-card {
